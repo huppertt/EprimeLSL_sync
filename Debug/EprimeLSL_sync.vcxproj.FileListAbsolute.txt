@@ -1,0 +1,2 @@
+C:\Users\NIRS\Desktop\EprimeLSL_sync\Debug\EprimeLSL_sync.dll
+C:\Users\NIRS\Desktop\EprimeLSL_sync\Debug\EprimeLSL_sync.pdb

@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  dllmain.cpp
+  LSL_externs.cpp
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.cpp(9,36): warning C4273: 'init_LSL': inconsistent dll linkage
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.h(11,33): message : see previous definition of 'init_LSL'
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.cpp(17,36): warning C4273: 'send_marker': inconsistent dll linkage
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.h(9,33): message : see previous definition of 'send_marker'
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.cpp(23,18): warning C4273: 'close_LSL': inconsistent dll linkage
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.h(13,33): message : see previous definition of 'close_LSL'
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.cpp(26,16): warning C4150: deletion of pointer to incomplete type 'lsl_outlet_struct_'; no destructor called
+C:\Users\NIRS\Desktop\EprimeLSL_sync\lsl\types.h(28): message : see declaration of 'lsl_outlet_struct_'
+C:\Users\NIRS\Desktop\EprimeLSL_sync\LSL_externs.cpp(27,14): warning C4150: deletion of pointer to incomplete type 'lsl_streaminfo_struct_'; no destructor called
+C:\Users\NIRS\Desktop\EprimeLSL_sync\lsl\types.h(21): message : see declaration of 'lsl_streaminfo_struct_'
+  Generating Code...
+     Creating library C:\Users\NIRS\Desktop\EprimeLSL_sync\Debug\EprimeLSL_sync.lib and object C:\Users\NIRS\Desktop\EprimeLSL_sync\Debug\EprimeLSL_sync.exp
+  EprimeLSL_sync.vcxproj -> C:\Users\NIRS\Desktop\EprimeLSL_sync\Debug\EprimeLSL_sync.dll
