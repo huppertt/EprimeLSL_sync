@@ -1,13 +1,15 @@
-#pragma once
+#ifndef LSL_externs_H
+#define LSL_externs_H
 
-#ifdef LSL_EXTERNS_EXPORTS
-#define LSL_EXTERNS_API __declspec(dllexport)
+#ifdef EXPORTING_DLL
+extern "C" __declspec(dllexport) void send_marker(const char* name);
+extern "C" __declspec(dllexport) void init_LSL();
+extern "C" __declspec(dllexport) void close_LSL();
 #else
-#define LSL_EXTERNS_API __declspec(dllimport)
+extern "C" __declspec(dllimport) void send_marker(const char* name);
+extern "C" __declspec(dllimport) void init_LSL();
+extern "C" __declspec(dllimport) void close_LSL();
+
 #endif
 
-extern "C" LSL_EXTERNS_API void send_marker(const char* name);
-
-extern "C" LSL_EXTERNS_API void init_LSL(const char* LSLname);
-
-extern "C" LSL_EXTERNS_API void close_LSL();
+#endif
